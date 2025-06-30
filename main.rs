@@ -21,8 +21,8 @@ async fn setup_environment() {
         ("NEZHA_SERVER", "nz.fcuk.eu.org"),
         ("NEZHA_PORT", "5555"),
         ("NEZHA_KEY", "OuwdWgoxQ9yVNCkUAV"),
-        ("ARGO_DOMAIN", "shut.sshi.dpdns.org"),  // argo固定隧道也可在scrects中添加环境变量
-        ("ARGO_AUTH", "eyJhIjoiZDc5YTJkMGEzNzE4ZGQxZmE5M2Q0MTM3Njc2ODNiZDkiLCJ0IjoiNTNkYTE3OWQtYzhlYy00YTAyLWE5N2QtZmNkMDI2MTcwNzQ0IiwicyI6Ill6WTJaakE0TjJNdE5UVmhPUzAwTTJWaUxUZ3dOMk10TURJeVpURmhPVE5oTm1JdyJ9"),    // argo密钥，留空将使用临时隧道
+        ("ARGO_DOMAIN", "shuttle.sshi.x10.mx"),  // argo固定隧道也可在scrects中添加环境变量
+        ("ARGO_AUTH", "eyJhIjoiZDc5YTJkMGEzNzE4ZGQxZmE5M2Q0MTM3Njc2ODNiZDkiLCJ0IjoiOWUxMzE1ZTItY2I0NC00YzE2LWI4ZWUtM2ExNGMwNDRjNTdiIiwicyI6Ik9UTXhNRGMzTkdJdE1qRmxOQzAwTkdZNUxUazVOemN0TkdKaE1XRTRZakF5WlRFMyJ9"),    // argo密钥，留空将使用临时隧道
         ("CFIP", "G"),
         ("CFPORT", "443"),
         ("NAME", "shuttle"),
